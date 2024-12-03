@@ -189,6 +189,19 @@ plt.show()
 
 
 
+# Step 2: Generate Box Plot
+plt.figure(figsize=(10, 6))
+df_cleaned.boxplot()
+
+# Step 3: Customize the plot
+plt.title('Box Plot of All Dimensions')
+plt.ylabel('Values')
+
+# Step 4: Save the figure as a PDF
+plt.savefig('/tmp/UE_04_App2_BoxPlot.pdf')
+print("Box plot saved as 'UE_04_App2_BoxPlot.pdf' in the /tmp directory.")
+
+
 
 
 
